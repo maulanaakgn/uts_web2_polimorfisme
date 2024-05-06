@@ -1,6 +1,7 @@
 # 21552011144_Azki Maulana Assariy_UTS_WEB2
 ## Contoh Polimorfisme :
 ```php
+<?php
 abstract class namaBuah {
     abstract public function deskripsi();
 }
@@ -21,4 +22,5 @@ $Buah = [new Jeruk(), new Nanas()];
 foreach ($Buah as $namaBuah) {
     echo $namaBuah->deskripsi() . "\n";
 }
+?>
 ```
